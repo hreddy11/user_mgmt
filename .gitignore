@@ -1,0 +1,6 @@
+__pycache__
+denv
+.pytest_cache
+.tox
+*.egg-info
+*.db
