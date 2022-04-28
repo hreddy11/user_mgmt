@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: user-mgmt
+Version: 1.0.0
+Summary: Boilerplate Flask API with Flask-RESTx, SQLAlchemy, pytest, flake8, tox configured
+Home-page: https://github.com/hreddy11/user_mgmt
+Author: Hariprakash Reddy
+Author-email: haprare@gmail.com
+Maintainer: Hariprakash Reddy
+Maintainer-email: haprare@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/hreddy11/user_mgmt
+Project-URL: Bug Tracker, https://github.com/hreddy11/user_mgmt/issues
+Project-URL: Source Code, https://github.com/hreddy11/user_mgmt
+Platform: UNKNOWN
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+### to install project
+```
+pip install -e .
+```
+or
+```
+pip install -e .'[dev]'
+```
+
+### db operations
+initialisation of db
+```
+flask db init
+```
+migrate the models using 
+```
+flask db migrate --message "add User model"
+```
+and then
+```
+flask db upgrade
+```
+
+
+### Known issues
+- in python shell db is not getting detected (python >> froom run import app, db >>db gives <SQLAlchemy engine=None>)
+
