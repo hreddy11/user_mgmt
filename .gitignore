@@ -4,3 +4,5 @@ denv
 .tox
 *.egg-info
 *.db
+.coverage
+.cache
