@@ -6,3 +6,4 @@ denv
 *.db
 .coverage
 .cache
+htmlcov
