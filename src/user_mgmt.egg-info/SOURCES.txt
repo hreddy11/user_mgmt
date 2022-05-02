@@ -9,7 +9,12 @@ src/user_mgmt.egg-info/dependency_links.txt
 src/user_mgmt.egg-info/requires.txt
 src/user_mgmt.egg-info/top_level.txt
 src/user_mgmt/api/__init__.py
+src/user_mgmt/api/exceptions.py
 src/user_mgmt/api/auth/__init__.py
+src/user_mgmt/api/auth/business.py
+src/user_mgmt/api/auth/decorators.py
+src/user_mgmt/api/auth/dto.py
+src/user_mgmt/api/auth/endpoints.py
 src/user_mgmt/api/widgets/__init__.py
 src/user_mgmt/models/__init__.py
 src/user_mgmt/models/user.py

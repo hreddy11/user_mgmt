@@ -7,6 +7,10 @@ or
 pip install -e .'[dev]'
 ```
 
+```
+pip install tox
+```
+
 ### db operations
 initialisation of db
 ```
